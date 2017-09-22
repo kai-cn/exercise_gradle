@@ -15,3 +15,7 @@ jettyRun {
     httpPort = 9090
     contextPath = 'todo'
 }
+
+task wrapper(type: wrapper) {
+	gradleVersion = '1.2'
+}
