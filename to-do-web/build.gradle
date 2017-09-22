@@ -17,5 +17,5 @@ jettyRun {
 }
 
 task wrapper(type: Wrapper) {
-	gradleVersion = '1.7'
+	gradleVersion = '3.2'
 }
