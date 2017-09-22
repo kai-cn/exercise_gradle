@@ -1,0 +1,18 @@
+apply plugin: 'java'
+
+version = 0.1
+
+jar {
+	manifest {
+		attributes 'Main-Class': 'kklin.todo.ToDoApp'
+	}
+}
+
+repositories {
+	mavenCentral()
+}
+
+
+dependencies {
+	compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.1'
+}
